@@ -3,6 +3,5 @@
 inputE1.addEventListeren('input', onInputChange);
 function onInputChange(event) {
     const name = event.currentTarget.value.trim();
-    const name = event.currentTarget.value.trim();
     outputE1.textContent = name === '' ? 'Anonimus' : name;
 };
