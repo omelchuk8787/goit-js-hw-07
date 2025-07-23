@@ -1,7 +1,9 @@
-    const inputE1 = document.querySelector('#name-input');
-    const outputE1 = document.querySelector('#name-output');
-inputE1.addEventListeren('input', onInputChange);
+const inputEl = document.querySelector('#name-input');
+const outputEl = document.querySelector('#name-output');
+
+inputEl.addEventListener('input', onInputChange);
+
 function onInputChange(event) {
-    const name = event.currentTarget.value.trim();
-    outputE1.textContent = name === '' ? 'Anonimus' : name;
-};
+  const userName = event.currentTarget.value.trim();
+  outputEl.textContent = userName === '' ? 'Anonymous' : userName;
+}
