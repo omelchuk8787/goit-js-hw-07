@@ -22,12 +22,12 @@ body {
   justify-content: center;
 }
 
-.gallery__item {
+.gallery_item {
   flex-basis: calc(33% - 20px);
   box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
 }
 
-.gallery__image {
+.gallery_image {
   width: 100%;
   height: auto;
   display: block;
